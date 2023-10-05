@@ -2,7 +2,7 @@
 
 # 📋 Cadastro de Alunos
 ## Descrição
-Esta é uma API REST simples para realização de cadastro de alunos. Nela terá funções como: Listar alunos, abter informações de um aluno através do seu ID, cadastro de alunos e remover algum aluno específico.
+Esta é uma API REST simples para realização de cadastro de alunos. Nela terá funções como: Listar alunos, obter informações de um aluno através do seu ID, cadastro de alunos e remover algum aluno específico.
 
 ## Tecnologias e Ferramentas Utilizadas
 * [Node.js](https://nodejs.org/pt-br)
@@ -34,7 +34,33 @@ npm run start
 ### Listar Alunos
 Endpoint: `http://localhost:3000/alunos`
 
-* Esse endpoint irá mostrar a lista de todos os alunos cadastrados, um detalhe importante é que para ter acesso a essa lista é necessário passar uma senha na url.
+* Mostra a lista de todos os alunos cadastrados.
 * GET `http://localhost:3000/alunos?senha=cubos123`
 
 ![Captura de tela 2023-10-05 184306](https://github.com/vanessaribeiro03/cdd4.0/assets/125810343/b17565d9-a57f-4438-a4b7-2d72166de685)
+
+### Cadastrar Alunos
+Endpoint: `http://localhost:3000/alunos/`
+
+* Cadastra um aluno.
+* Por se tratar de um endpoint do verbo POST, é necessário passar as informações no body.
+
+![Alunocadastro](https://github.com/vanessaribeiro03/cdd4.0/assets/125810343/3724e1b8-d181-4abf-a62a-ee13b5e686f1)
+
+### Obter Aluno por ID
+Endpoint: `http://localhost:3000/alunos/<id do aluno>`
+
+* Mostra todas as informações do aluno informado pelo ID
+* GET `http://localhost:3000/alunos/1`
+
+![alunoID](https://github.com/vanessaribeiro03/cdd4.0/assets/125810343/c7212547-01d5-44f5-9b27-f32ab0bb3f0b)
+
+### Remover aluno
+Endpoint: `http://localhost:3000/alunos/<id do aluno>`
+
+* Remove o aluno do ID informado
+* DELETE `http://localhost:3000/alunos/1`
+
+![apagarAluno](https://github.com/vanessaribeiro03/cdd4.0/assets/125810343/ded27d3e-6306-4fb6-a4b2-5df2ad5fa442)
+
+# Faça bom uso! 
