@@ -45,7 +45,7 @@ Endpoint: `http://localhost:3000/alunos/`
 * Cadastra um aluno.
 * Por se tratar de um endpoint do verbo POST, é necessário passar as informações no body.
 
-![Alunocadastro](https://github.com/vanessaribeiro03/cdd4.0/assets/125810343/3724e1b8-d181-4abf-a62a-ee13b5e686f1)
+![Alunocadastro](https://res.cloudinary.com/dnuhmdhlu/image/upload/v1697844562/cadastrar_ahaq4v.png)
 
 ### Obter Aluno por ID
 Endpoint: `http://localhost:3000/alunos/<id do aluno>`
@@ -53,7 +53,7 @@ Endpoint: `http://localhost:3000/alunos/<id do aluno>`
 * Mostra todas as informações do aluno informado pelo ID
 * GET `http://localhost:3000/alunos/1`
 
-![alunoID](https://github.com/vanessaribeiro03/cdd4.0/assets/125810343/c7212547-01d5-44f5-9b27-f32ab0bb3f0b)
+![alunoID](https://res.cloudinary.com/dnuhmdhlu/image/upload/v1697844621/obter_jn6ur3.png)
 
 ### Remover aluno
 Endpoint: `http://localhost:3000/alunos/<id do aluno>`
@@ -61,6 +61,6 @@ Endpoint: `http://localhost:3000/alunos/<id do aluno>`
 * Remove o aluno do ID informado
 * DELETE `http://localhost:3000/alunos/1`
 
-![apagarAluno](https://github.com/vanessaribeiro03/cdd4.0/assets/125810343/ded27d3e-6306-4fb6-a4b2-5df2ad5fa442)
+![apagarAluno](https://res.cloudinary.com/dnuhmdhlu/image/upload/v1697844656/remover_klgvlk.png)
 
 # Faça bom uso! 
