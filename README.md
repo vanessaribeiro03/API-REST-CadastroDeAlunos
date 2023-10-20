@@ -37,7 +37,7 @@ Endpoint: `http://localhost:3000/alunos`
 * Mostra a lista de todos os alunos cadastrados.
 * GET `http://localhost:3000/alunos?senha=cubos123`
 
-![Captura de tela 2023-10-05 184306](https://github.com/vanessaribeiro03/cdd4.0/assets/125810343/b17565d9-a57f-4438-a4b7-2d72166de685)
+![Captura de tela 2023-10-05 184306](https://res.cloudinary.com/dnuhmdhlu/image/upload/v1697844878/listar_ir3d1e.png)
 
 ### Cadastrar Alunos
 Endpoint: `http://localhost:3000/alunos/`
