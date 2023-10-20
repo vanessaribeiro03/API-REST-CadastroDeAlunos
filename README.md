@@ -28,7 +28,7 @@ npm run start
 ## Uso
 ⚠️ **Importante:** Para ter acesso a todas as funcionalidades dos endpoints, é necessario passar uma senha como parametro, em cada endpoint dentro do insomnia, como mostra abaixo.
 
-![query](https://github.com/vanessaribeiro03/cdd4.0/assets/125810343/b6622362-5a1e-48ff-95ef-6d64baef8a92)
+![query](https://res.cloudinary.com/dnuhmdhlu/image/upload/v1697844119/Captura_de_tela_2023-10-05_185432_aa1ism.png)
 
 ✅ **Depois de informar a senha em todos os endpoints, agora sim terá acesso as suas funções.**
 ### Listar Alunos
